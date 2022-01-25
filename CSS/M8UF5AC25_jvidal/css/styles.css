@@ -1,0 +1,37 @@
+#header {
+    border: 3px solid;
+    border-color: red;
+    height: 50px;
+    margin-bottom: 7px;
+}
+#aside {
+    border: 3px solid;
+    border-color: lightgreen;
+    float: left;
+    width: 150px;
+    height: 500px;
+    margin-right: 7px;
+}
+#nav {
+    border: 3px solid;
+    border-color: lightskyblue;
+    float: inline-start;
+    height: 50px;
+    width: 773px;
+    margin-bottom: 7px;
+}
+#article {
+    border: 3px solid;
+    border-color: yellow;
+    float:left;
+    height: 437px;
+    width: 773px;
+}
+#footer {
+    border: 3px solid;
+    border-color: purple;
+    float: left;
+    height: 50px;
+    width: 937px;
+    margin-top: 7px;
+}

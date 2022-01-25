@@ -1,0 +1,295 @@
+#contenedor0 {
+    display: inline-grid;
+    justify-content: center;
+}
+#titol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor {
+    display: inline-grid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 1860.12px;
+    height: 1094px;
+    border: 2px solid blue;
+
+}
+#contenedor2 {
+    display: inline-grid;
+    grid-gap: 10px ;
+    grid-template-columns: 72px 336px 336px 335px 335px 335px;
+    grid-template-rows: 100px 100px 193px 45px 205px 197px 193px;
+    justify-content: center;
+}
+#hora1 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;;
+}
+#hora2 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#hora3 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#hora4 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#hora5 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+#hora6 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+#caja1 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+#caja2 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#caja3 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#caja4 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#caja5 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#caja6 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+#caja7 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#caja8 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+#caja9 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+#caja10 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#caja11 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+#caja12 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+#caja13 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+#caja14 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+#caja15 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+#caja16 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#caja17 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#caja18 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#caja19 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+#caja20 {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+#pati {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}

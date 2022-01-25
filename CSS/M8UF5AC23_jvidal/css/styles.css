@@ -1,0 +1,84 @@
+body {
+    background-image: url(../img/IMAGEN.png);
+    background-size: 2000px;
+}
+
+table {
+    width: 70%;
+}
+table, td, th {
+    border-collapse: collapse;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.p1 {
+    background-color: yellow;
+}
+.p1:hover {
+    background-color: grey;
+}
+span {
+    text-decoration: underline;
+}
+#span {
+    text-decoration: overline;
+}
+strong {
+    font-weight: bold;
+}
+.p2 {
+    background-color: rgb(255, 220, 0);
+}
+.p2:hover {
+    background-color: grey;
+}
+.p3 {
+    background-color: rgb(255, 200, 0);
+}
+.p3:hover {
+    background-color: grey;
+}
+.p4 {
+    background-color: rgb(255, 180, 0);
+}
+.p4:hover {
+    background-color: grey;
+}
+.p5 {
+    background-color: rgb(255, 160, 0);
+}
+.p5:hover {
+    background-color: grey;
+}
+.p6 {
+    background-color: rgb(255, 140, 0);
+}
+.p6:hover {
+    background-color: grey;
+}
+.p7 {
+    background-color: rgb(255, 120, 0);
+}
+.p7:hover {
+    background-color: grey;
+}
+.p8 {
+    background-color: rgb(255, 100, 0);
+}
+.p8:hover {
+    background-color: grey;
+}
+.p9 {
+    background-color: rgb(255, 80, 0);
+}
+.p9:hover {
+    background-color: grey;
+}
+.p10 {
+    background-color: rgb(255, 60, 0);
+}
+.p10:hover {
+    background-color: grey;
+}

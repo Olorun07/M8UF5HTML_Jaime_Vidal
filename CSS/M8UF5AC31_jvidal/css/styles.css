@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: rgba(70, 65, 65, 0.925);
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    list-style: none;
+}
+#titol {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contenedor {
+    display: grid;
+    grid-template-columns: 702px 163px 163px 163px 702px;
+    grid-template-rows: 40px 769px;
+    justify-content: center;
+}
+#caja1 {
+    background-color: rgb(58, 58, 58);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#caja2 {
+    font-family:sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
+#caja3 {
+    font-family:sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
+#caja4 {
+    font-family:sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
+#caja2:hover {
+    color: red;
+    background-color: rgb(209, 171, 171);
+}
+#caja3:hover {
+    color: red;
+    background-color: rgb(209, 171, 171);
+}
+#caja4:hover {
+    color: red;
+    background-color: rgb(209, 171, 171);
+}
+#caja5 {
+    background-color: rgb(58, 58, 58);
+}
+#caja6 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2; 
+    grid-row-end: 3;
+}
+#subtitol {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: rgba(51, 48, 48, 0.514);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor2 {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 300px));
+    grid-template-rows: 160px 20px ;
+    justify-content: center
+}
+#caja7:hover {
+    opacity: 70%;
+}
+#caja8:hover {
+    opacity: 70%;
+}
+#caja9:hover {
+    opacity: 70%;
+}
+#contenedor3 {
+    display: grid;
+    grid-template-columns: 1000px;
+    grid-template-rows: 180px 50px;
+    justify-content: center;
+}
+.texto1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+.texto2 {
+    margin-top: 60px;
+    text-align: center;
+    line-height: 25px;
+}
+button {
+    color: white;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+button:hover {
+    opacity: 70%;
+}
+#contenedor4{
+    margin-top: 18px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 300px 330px 300px;
+    grid-template-rows: 20px;
+    justify-content: center;
+}
+hr {
+    color: rgba(70, 65, 65, 0.925);
+    width: 960px;
+    border: 1px solid rgba(70, 65, 65, 0.925);
+}
+#texto1 { 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(70, 65, 65, 0.925);
+}
+#texto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(70, 65, 65, 0.925);
+}
+#texto3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(70, 65, 65, 0.925);
+}

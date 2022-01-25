@@ -1,0 +1,181 @@
+body, html {
+    background-color: #f6f6f6;
+}
+
+#painting {
+    display: grid;
+    grid-template-columns: 70px 140px 140px 70px 70px 70px 70px;
+    grid-template-rows: 50px 50px 50px 150px 50px 50px 50px; 
+  height: 655px;
+  width: 655px;    
+  margin-top: 30px;
+  margin: auto;
+}
+#caja1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3 ;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: lightgray;
+}
+#caja2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: lightgray;
+}
+#caja3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: lightgray;
+}
+#caja4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    border-right: 5px solid black;
+    background-color: lightgray;
+}
+#caja5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    border-right: 5px solid black;
+    background-color: gold;
+}
+#caja6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color:mediumblue;
+}
+#caja7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    border-right: 5px solid black;
+    background-color: gold;
+}
+#caja8 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color:crimson;
+}
+#caja9 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: crimson;
+}
+#caja10 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: crimson;
+}
+#caja11 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    border-right: 5px solid black;
+    background-color: mediumblue;
+}
+#caja12 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    border-right: 5px solid black;
+    background-color: crimson;
+}
+#caja13 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: gold;
+}
+#caja14 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: white;
+}
+#caja15 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border-bottom: 5px solid black;
+    background-color: crimson;
+}
+#caja16 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: 5px solid black;
+    background-color: gold;
+}
+#caja17 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-bottom: 5px solid black;
+    background-color: crimson;
+}
+#caja18 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-bottom: 5px solid black;
+    background-color: white;
+}
+#caja19 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    border-right: 5px solid black;
+    background-color: gold;
+}
+#caja20 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    background-color: gold;
+}

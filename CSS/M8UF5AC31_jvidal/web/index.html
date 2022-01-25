@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulari 1 d'enregistrament</title>
+        <link rel="stylesheet" href="../css/styles4.css">
+    </head>
+    <body>
+        <h1>Formulari bàsic de registre</h1>
+        <form action="mailto:jaime.vidal@inslapineda.cat" method="GET">
+            <fieldset>
+                <p></p>
+                Nom: <input type="text" name="nom" size="50">
+                <p></p>
+                Cognoms: <input type="text" name="cognom" size="50">
+                <p></p>
+                <input type="radio" name="sex" value="home">Home
+                <p></p>
+                <input type="radio" name="sex" value="dona">Dona
+                <p></p>
+                Correu electrònic: <input type="text" name="correu" size="40">
+                <P></P>
+                <label for="població">Població:</label>
+                <select name="població" id="població">
+                    <option value="Arbúcies">Arbúcies</option>
+                    <option value="Badalona">Badalona</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Girona">Girona</option>
+                    <option value="Vilassar de Mar">Vilassar de Mar</option>
+                </select>
+                <p></p>
+                <p>Agrega una nova descripció</p>
+                <p><textarea name="missatge" placeholder="Descripció" cols="50" rows="5"></textarea></p>
+                <p></p>
+                <input type="checkbox" name="verificació" checked> Vull rebre informació sobre novetats i ofertes.
+                <p></p>
+                <input type="checkbox" name="verificació"> Declaro haver llegit i acceptar les condicions generals del programa i la normativa sobre protecció de dades indicada al RGPD.
+                <p></p>
+                <button type="submit">Enviar</button><button type="reset">Borrar</button>
+                <p></p>
+            </fieldset>
+        </form>
+    </body>
+</html>
