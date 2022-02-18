@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="../js/calculadora.js"></script>
+    </head>
+    <body>
+        <div id="calculadora">
+            <input type="text" readonly id="casilla">
+            <p id="logo">CASI</p>
+            
+    
+            <div id="limpiar">
+                <img id="panel" src="../img/panelsolar.png" alt="" height="50px" width="200px">
+                <button class="limpiar" onclick="limpiar()">C</button>
+            </div>
+    
+            <div id="numpad">
+                <div class="row">
+                    <button onclick="numero('7')">7</button>
+                    <button onclick="numero('8')">8</button>
+                    <button onclick="numero('9')">9</button>
+                    <button class="amarillo" onclick="numero('/')">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="numero('4')">4</button>
+                    <button onclick="numero('5')">5</button>
+                    <button onclick="numero('6')">6</button>
+                    <button class="amarillo" onclick="numero('*')">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="numero('1')">1</button>
+                    <button onclick="numero('2')">2</button>
+                    <button onclick="numero('3')">3</button>
+                    <button class="amarillo" onclick="numero('-')">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="numero('0')">0</button>
+                    <button onclick="numero('.')">.</button>
+                    <button class="amarillo" onclick="calcular()">=</button>
+                    <button class="amarillo" onclick="numero('+')">+</button>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

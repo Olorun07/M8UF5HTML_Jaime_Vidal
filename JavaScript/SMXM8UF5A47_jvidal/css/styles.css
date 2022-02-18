@@ -1,0 +1,44 @@
+#fons {
+    background-image:url("../img/trivial.jpeg");
+    background-size: cover 0%;
+}
+#formulari {
+    background-color:rgb(76, 0, 255);
+    width: 400px;
+    height: 500px;
+    text-align:center;
+    margin: auto;
+    color: white;
+}
+.img {
+    width: 200px;
+    height: 150px;
+}
+#titulo {
+    text-align: center;
+}
+#btrivial {
+    background-color: rgb(177, 243, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#contingut {
+    text-align: left;
+}
+#borde {
+    border: rgb(76, 0, 255) solid 2px;
+    width: 700px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+#balena {
+    width: 200px;
+    height: 200px;
+}
+#boto {
+    border: 30%;
+    height: 40px;
+    width: 80px;
+    background-color:rgb(0, 0, 0);
+    color: white;
+}

@@ -1,0 +1,14 @@
+div {
+    text-align: center;
+}
+#primero1 {
+    float: inline-start;    
+}
+#segundo1 {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#tercero1 {
+    float: left;
+}
